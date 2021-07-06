@@ -1,0 +1,107 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:syncfusion="http://schemas.syncfusion.com/wpf">
+    <syncfusion:FormatsCollection x:Key="redscriptDefaultFormat">
+        <!--
+            From the Base16 implmentation of the Material theme
+        
+            base00: "263238" - Default Background
+            base01: "2E3C43" - Lighter Background (Used for status bars, line number and folding marks)
+            base02: "314549" - Selection Background
+            base03: "546E7A" - Comments, Invisibles, Line Highlighting
+            base04: "B2CCD6" - Dark Foreground (Used for status bars)
+            base05: "EEFFFF" - Default Foreground, Caret, Delimiters, Operators
+            base06: "EEFFFF" - Light Foreground (Not often used)
+            base07: "FFFFFF" - Light Background (Not often used)
+            base08: "F07178" - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+            base09: "F78C6C" - Integers, Boolean, Constants, XML Attributes, Markup Link Url
+            base0A: "FFCB6B" - Classes, Markup Bold, Search Text Background
+            base0B: "C3E88D" - Strings, Inherited Class, Markup Code, Diff Inserted
+            base0C: "89DDFF" - Support, Regular Expressions, Escape Characters, Markup Quotes
+            base0D: "82AAFF" - Functions, Methods, Attribute IDs, Headings
+            base0E: "C792EA" - Keywords, Storage, Selector, Markup Italic, Diff Changed
+            base0F: "FF5370" - Deprecated, Opening/Closing Embedded Language Tags
+        -->
+        <syncfusion:EditFormats FormatName="TextFormat"      Foreground="#EEFFFF" />
+        <syncfusion:EditFormats FormatName="OperatorFormat"  Foreground="#EEFFFF" />
+        <syncfusion:EditFormats FormatName="CommentFormat"   Foreground="#546E7A" />
+        
+        <syncfusion:EditFormats FormatName="KeywordFormat"   Foreground="#C792EA" />
+        <syncfusion:EditFormats FormatName="QualifierFormat" Foreground="#89DDFF" />
+        <syncfusion:EditFormats FormatName="ClassFormat"     Foreground="#FFCB6B" />
+        <syncfusion:EditFormats FormatName="FunctionFormat"  Foreground="#82AAFF" />
+        <syncfusion:EditFormats FormatName="VariableFormat"  Foreground="#F07178" />
+        
+        <syncfusion:EditFormats FormatName="ValueFormat"     Foreground="#F78C6C" />
+        <syncfusion:EditFormats FormatName="LiteralFormat"   Foreground="#C3E88D" />
+    </syncfusion:FormatsCollection>
+    
+    <syncfusion:LexemCollection x:Key="redscriptLexem">
+        <syncfusion:Lexem StartText="//" EndText="\r\n" IsMultiline="False" ContainsEndText="True" LexemType="Comment" FormatName="CommentFormat" />
+        <syncfusion:Lexem StartText="/*" EndText="*/" IsMultiline="True" ContainsEndText="True" LexemType="Comment" FormatName="CommentFormat" />
+        
+        <!-- Class -->
+        <syncfusion:Lexem StartText="extends" LexemType="Keyword" FormatName="ClassFormat" />
+        <syncfusion:Lexem StartText="class"   LexemType="Keyword" FormatName="ClassFormat" />
+        
+        <!-- Keywords -->
+        <syncfusion:Lexem StartText="new"     LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="this"    LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="super"   LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="let"     LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="func"    LexemType="Keyword" FormatName="KeywordFormat" />        
+        <syncfusion:Lexem StartText="enum"    LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="import"  LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="module"  LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="switch"  LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="case"    LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="if"      LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="else"    LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="while"   LexemType="Keyword" FormatName="KeywordFormat" />
+
+        <!-- Qualifiers -->
+        <syncfusion:Lexem StartText="public"    LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="protected" LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="private"   LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="abstract"  LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="cb"        LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="const"     LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="exec"      LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="final"     LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="native"    LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="opt"       LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="out"       LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="static"    LexemType="Keyword" FormatName="QualifierFormat" />
+        
+        <!-- Literals -->
+        <syncfusion:Lexem StartText="[n|r|t]?&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />
+
+        <!-- ValueFormat -->
+        <syncfusion:Lexem StartText="true"  LexemType="Keyword" FormatName="ValueFormat" />
+        <syncfusion:Lexem StartText="false" LexemType="Keyword" FormatName="ValueFormat" />
+
+        <!-- Operators -->
+        <syncfusion:Lexem StartText="("  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText=")"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="["  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="]"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="\{" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="\}" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="="  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="+"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="-"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="*"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="/"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="%"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="!"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="~"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="|"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="?"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText=":"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText=";"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="&lt;"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="&gt;"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="&amp;" LexemType="Operator" FormatName="OperatorFormat" />        
+
+    </syncfusion:LexemCollection>
+</ResourceDictionary>

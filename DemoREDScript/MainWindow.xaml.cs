@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using Syncfusion.Windows.Edit;
+
 namespace DemoREDScript
 {
     /// <summary>
@@ -23,6 +25,16 @@ namespace DemoREDScript
         public MainWindow()
         {
             InitializeComponent();
+
+            RedscriptLanguage redscriptLanguage = new(editControl) {
+                Lexem = Resources["redscriptLexem"] as LexemCollection,
+                Formats = Resources["redscriptDefaultFormat"] as FormatsCollection
+            };
+
+            editControl.DocumentLanguage = Languages.Custom;
+            editControl.CustomLanguage = redscriptLanguage;
+
+            editControl.DocumentSource = "sample.reds";
         }
     }
 }
