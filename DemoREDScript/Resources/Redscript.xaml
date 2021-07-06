@@ -71,6 +71,10 @@
         <syncfusion:Lexem StartText="else"    LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="while"   LexemType="Keyword" FormatName="KeywordFormat" />
 
+        <syncfusion:Lexem StartText="Void"    LexemType="Keyword" FormatName="FunctionFormat" />
+
+
+
         <!-- Qualifiers -->
         <syncfusion:Lexem StartText="public"   EndText="\r\n" LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="protected" LexemType="Keyword" FormatName="QualifierFormat" />
@@ -84,6 +88,11 @@
         <syncfusion:Lexem StartText="opt"       LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="out"       LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="static"    LexemType="Keyword" FormatName="QualifierFormat" />
+
+        <syncfusion:Lexem StartText="@addMethod"    LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="@addField"    LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="this"    LexemType="Keyword" FormatName="QualifierFormat" />
+
 
         <!-- Literals -->
         <!--<syncfusion:Lexem StartText="[n|r|t]&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />-->
@@ -99,6 +108,8 @@
 
         <syncfusion:Lexem StartText="{}{"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="}"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="."  LexemType="Operator" FormatName="OperatorFormat" />
+
 
         <syncfusion:Lexem StartText=")"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="["  LexemType="Operator" FormatName="OperatorFormat" />
