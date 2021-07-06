@@ -4,7 +4,7 @@
     <syncfusion:FormatsCollection x:Key="redscriptDefaultFormat">
         <!--
             From the Base16 implmentation of the Material theme
-        
+
             base00: "263238" - Default Background
             base01: "2E3C43" - Lighter Background (Used for status bars, line number and folding marks)
             base02: "314549" - Selection Background
@@ -23,44 +23,56 @@
             base0F: "FF5370" - Deprecated, Opening/Closing Embedded Language Tags
         -->
         <syncfusion:EditFormats FormatName="TextFormat"      Foreground="#EEFFFF" />
-        <syncfusion:EditFormats FormatName="OperatorFormat"  Foreground="#EEFFFF" />
+        <syncfusion:EditFormats FormatName="OperatorFormat"  Foreground="#C792EA" />
         <syncfusion:EditFormats FormatName="CommentFormat"   Foreground="#546E7A" />
-        
+
         <syncfusion:EditFormats FormatName="KeywordFormat"   Foreground="#C792EA" />
         <syncfusion:EditFormats FormatName="QualifierFormat" Foreground="#89DDFF" />
         <syncfusion:EditFormats FormatName="ClassFormat"     Foreground="#FFCB6B" />
         <syncfusion:EditFormats FormatName="FunctionFormat"  Foreground="#82AAFF" />
         <syncfusion:EditFormats FormatName="VariableFormat"  Foreground="#F07178" />
-        
+
+
         <syncfusion:EditFormats FormatName="ValueFormat"     Foreground="#F78C6C" />
         <syncfusion:EditFormats FormatName="LiteralFormat"   Foreground="#C3E88D" />
     </syncfusion:FormatsCollection>
-    
+
     <syncfusion:LexemCollection x:Key="redscriptLexem">
         <syncfusion:Lexem StartText="//" EndText="\r\n" IsMultiline="False" ContainsEndText="True" LexemType="Comment" FormatName="CommentFormat" />
         <syncfusion:Lexem StartText="/*" EndText="*/" IsMultiline="True" ContainsEndText="True" LexemType="Comment" FormatName="CommentFormat" />
-        
+
+        <!-- Helpers? Idk man it works lol-->
+        <syncfusion:Lexem StartText="class" EndText="^[}].{0}" ContainsEndText="True" IsMultiline="True" IsRegex="True" ScopeLevel="Class"   LexemType="Property" FormatName="ClassFormat" />
+
+        <syncfusion:Lexem StartText="func" ScopeLevel="All" IsRegex="True" EndText="^}.{0}" ContainsEndText="True" IsMultiline="True"   LexemType="Property" FormatName="ClassFormat" />
+
+
         <!-- Class -->
         <syncfusion:Lexem StartText="extends" LexemType="Keyword" FormatName="ClassFormat" />
-        <syncfusion:Lexem StartText="class"   LexemType="Keyword" FormatName="ClassFormat" />
-        
+        <syncfusion:Lexem StartText="class" LexemType="Keyword" FormatName="ClassFormat" />
+
         <!-- Keywords -->
         <syncfusion:Lexem StartText="new"     LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="this"    LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="super"   LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="let"     LexemType="Keyword" FormatName="KeywordFormat" />
-        <syncfusion:Lexem StartText="func"    LexemType="Keyword" FormatName="KeywordFormat" />        
+
+        <syncfusion:Lexem StartText="func"    LexemType="Keyword" FormatName="KeywordFormat" />
+
         <syncfusion:Lexem StartText="enum"    LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="import"  LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="module"  LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="switch"  LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="case"    LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="return"  LexemType="Keyword" FormatName="KeywordFormat" />
+        <syncfusion:Lexem StartText="default" LexemType="Keyword" FormatName="KeywordFormat" />
+
         <syncfusion:Lexem StartText="if"      LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="else"    LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="while"   LexemType="Keyword" FormatName="KeywordFormat" />
 
         <!-- Qualifiers -->
-        <syncfusion:Lexem StartText="public"    LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="public"   EndText="\r\n" LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="protected" LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="private"   LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="abstract"  LexemType="Keyword" FormatName="QualifierFormat" />
@@ -72,16 +84,22 @@
         <syncfusion:Lexem StartText="opt"       LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="out"       LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="static"    LexemType="Keyword" FormatName="QualifierFormat" />
-        
+
         <!-- Literals -->
-        <syncfusion:Lexem StartText="[n|r|t]?&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />
+        <!--<syncfusion:Lexem StartText="[n|r|t]&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />-->
+        <syncfusion:Lexem StartText="&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />
 
         <!-- ValueFormat -->
         <syncfusion:Lexem StartText="true"  LexemType="Keyword" FormatName="ValueFormat" />
         <syncfusion:Lexem StartText="false" LexemType="Keyword" FormatName="ValueFormat" />
 
         <!-- Operators -->
-        <syncfusion:Lexem StartText="("  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="[(]" LexemType="Operator"  FormatName="FunctionFormat" IsRegex="True" />
+        <syncfusion:Lexem StartText="[(]" LexemType="Operator"  FormatName="OperatorFormat" IsRegex="True" />
+
+        <syncfusion:Lexem StartText="{}{"  LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="}"  LexemType="Operator" FormatName="OperatorFormat" />
+
         <syncfusion:Lexem StartText=")"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="["  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="]"  LexemType="Operator" FormatName="OperatorFormat" />
@@ -101,7 +119,7 @@
         <syncfusion:Lexem StartText=";"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="&lt;"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="&gt;"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="&amp;" LexemType="Operator" FormatName="OperatorFormat" />        
+        <syncfusion:Lexem StartText="&amp;" LexemType="Operator" FormatName="OperatorFormat" />
 
     </syncfusion:LexemCollection>
 </ResourceDictionary>

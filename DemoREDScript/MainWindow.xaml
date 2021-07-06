@@ -10,17 +10,18 @@
     <Window.Resources>
         <ResourceDictionary Source="Resources/Redscript.xaml" />
     </Window.Resources>
-    <Grid Background="{DynamicResource ContentBackground}">
+    <Grid Background="AliceBlue">
         <syncfusion:EditControl
             x:Name="editControl"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
             Margin="0"
-            BorderBrush="Black"
+            BorderBrush="Gray"
             BorderThickness="1"
-            Foreground="White"
+            IsSelectionForegroundEnabled="False"
             CaretBrush="Red"
             FontFamily="Consolas"
+            SelectionBackground="Red"
         />
     </Grid>
 </Window>
