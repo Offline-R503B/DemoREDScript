@@ -42,14 +42,17 @@
         <syncfusion:Lexem StartText="/*" EndText="*/" IsMultiline="True" ContainsEndText="True" LexemType="Comment" FormatName="CommentFormat" />
 
         <!-- Helpers? Idk man it works lol-->
+        <!--
         <syncfusion:Lexem StartText="class" EndText="^[}].{0}" ContainsEndText="True" IsMultiline="True" IsRegex="True" ScopeLevel="Class"   LexemType="Property" FormatName="ClassFormat" />
 
         <syncfusion:Lexem StartText="func" ScopeLevel="All" IsRegex="True" EndText="^}.{0}" ContainsEndText="True" IsMultiline="True"   LexemType="Property" FormatName="ClassFormat" />
+        -->
 
 
         <!-- Class -->
+        <syncfusion:Lexem StartText="class"   LexemType="Keyword" FormatName="ClassFormat" />
         <syncfusion:Lexem StartText="extends" LexemType="Keyword" FormatName="ClassFormat" />
-        <syncfusion:Lexem StartText="class" LexemType="Keyword" FormatName="ClassFormat" />
+        
 
         <!-- Keywords -->
         <syncfusion:Lexem StartText="new"     LexemType="Keyword" FormatName="KeywordFormat" />
@@ -71,12 +74,12 @@
         <syncfusion:Lexem StartText="else"    LexemType="Keyword" FormatName="KeywordFormat" />
         <syncfusion:Lexem StartText="while"   LexemType="Keyword" FormatName="KeywordFormat" />
 
-        <syncfusion:Lexem StartText="Void"    LexemType="Keyword" FormatName="FunctionFormat" />
+        <!--<syncfusion:Lexem StartText="Void"    LexemType="Keyword" FormatName="FunctionFormat" />-->
 
 
 
         <!-- Qualifiers -->
-        <syncfusion:Lexem StartText="public"   EndText="\r\n" LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="public"    LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="protected" LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="private"   LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="abstract"  LexemType="Keyword" FormatName="QualifierFormat" />
@@ -89,45 +92,45 @@
         <syncfusion:Lexem StartText="out"       LexemType="Keyword" FormatName="QualifierFormat" />
         <syncfusion:Lexem StartText="static"    LexemType="Keyword" FormatName="QualifierFormat" />
 
-        <syncfusion:Lexem StartText="@addMethod"    LexemType="Keyword" FormatName="QualifierFormat" />
-        <syncfusion:Lexem StartText="@addField"    LexemType="Keyword" FormatName="QualifierFormat" />
-        <syncfusion:Lexem StartText="this"    LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="@addMethod" LexemType="Keyword" FormatName="QualifierFormat" />
+        <syncfusion:Lexem StartText="@addField"  LexemType="Keyword" FormatName="QualifierFormat" />
 
 
         <!-- Literals -->
-        <!--<syncfusion:Lexem StartText="[n|r|t]&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />-->
-        <syncfusion:Lexem StartText="&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />
+        <!--<syncfusion:Lexem StartText="[n|r|t]?&quot;" EndText="[^\\]&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />-->
+        <syncfusion:Lexem StartText="&quot;" EndText="&quot;" IsRegex="True" ContainsEndText="True" IsMultiline="False" LexemType="Literals" FormatName="LiteralFormat" />        
 
+        
         <!-- ValueFormat -->
         <syncfusion:Lexem StartText="true"  LexemType="Keyword" FormatName="ValueFormat" />
         <syncfusion:Lexem StartText="false" LexemType="Keyword" FormatName="ValueFormat" />
 
         <!-- Operators -->
+        <!--
         <syncfusion:Lexem StartText="[(]" LexemType="Operator"  FormatName="FunctionFormat" IsRegex="True" />
         <syncfusion:Lexem StartText="[(]" LexemType="Operator"  FormatName="OperatorFormat" IsRegex="True" />
+        -->
 
-        <syncfusion:Lexem StartText="{}{"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="}"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="."  LexemType="Operator" FormatName="OperatorFormat" />
-
-
-        <syncfusion:Lexem StartText=")"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="["  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="]"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="\{" LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="\}" LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="="  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="+"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="-"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="*"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="/"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="%"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="!"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="~"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="|"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText="?"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText=":"  LexemType="Operator" FormatName="OperatorFormat" />
-        <syncfusion:Lexem StartText=";"  LexemType="Operator" FormatName="OperatorFormat" />
+        <!-- Hideous XAML escape sequence needed for a single opening curly-brace -->
+        <syncfusion:Lexem StartText="{}{" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="}" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="(" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText=")" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="[" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="]" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="." LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="=" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="+" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="-" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="*" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="/" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="%" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="!" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="~" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="|" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText="?" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText=":" LexemType="Operator" FormatName="OperatorFormat" />
+        <syncfusion:Lexem StartText=";" LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="&lt;"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="&gt;"  LexemType="Operator" FormatName="OperatorFormat" />
         <syncfusion:Lexem StartText="&amp;" LexemType="Operator" FormatName="OperatorFormat" />

@@ -1,0 +1,161 @@
+<LexemCollection
+	xmlns="http://schemas.syncfusion.com/wpf"
+	xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Lexem StartText="#region" EndText="#endregion" IsMultiline="True" ContainsEndText="True" LexemType="Preprocessor" ExcludeItemInIntellisense="True" IntellisenseDisplayText="#region"/>
+	<Lexem StartText="#if" EndText="#endif" IsMultiline="True" ContainsEndText="True" LexemType="Preprocessor" ExcludeItemInIntellisense="True" IntellisenseDisplayText="#if"/>
+	
+    <Lexem StartText="namespace \w+" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="Namespace" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="namespace" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="True"/>
+	<Lexem StartText="class\s" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="Class" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="class" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="True"/>
+	<Lexem StartText="(public|private|protected|internal)[\w\s:&lt;&gt;,]|[\w\s:&lt;&gt;,-[^()]]+" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="Property" IsRegex="True" ScopeLevel="Member" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="(public|private|protected|internal)[\w\s:&lt;&gt;,]|[\w\s:&lt;&gt;,-[^()]]+" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="True"/>
+	<Lexem StartText="get|set" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="get|set" Indent="True" ParentLexemType="Property" CheckParentLexemType="True" IsCollapsible="True"/>
+	<Lexem StartText="if(\s\(|\()[\s\w\W]+\)" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="if(\s\(|\()[\s\w\W]+\)" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="else" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="else" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="else if(\s\(|\()[\s\w\W]+\)" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="else if(\s\(|\()[\s\w\W]+\)" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="while(\s\(|\()[\s\w\W]+\)" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="while(\s\(|\()[\s\w\W]+\)" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="\bdo\b" EndText="while(\s\(|\()[\s\w\W]+\);" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="\bdo\b" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="for(\s\(|\()[\s\w\W]+\)" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="for(\s\(|\()[\s\w\W]+\)" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="switch(\s\(|\()[\s\w\W]+\)" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="switch(\s\(|\()[\s\w\W]+\)" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="False"/>
+	<Lexem StartText="\w+\((\)|[\w\s,]+\))" EndText="}" IsMultiline="True" ContainsEndText="True" LexemType="CodeSnippet" ExcludeItemInIntellisense="True" IsRegex="True" IntellisenseDisplayText="\w+\((\)|[\w\s,]+\))" Indent="True" ParentLexemType="Literals" CheckParentLexemType="False" IsCollapsible="True"/>
+	<Lexem StartText="\babstract\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="abstract" FormatName="KeywordFormat"/>
+	
+    <Lexem StartText="as" LexemType="Keyword" IntellisenseDisplayText="as" FormatName="KeywordFormat"/>
+	<Lexem StartText="base" LexemType="Keyword" IntellisenseDisplayText="base" FormatName="KeywordFormat"/>
+	<Lexem StartText="bool" LexemType="Keyword" IntellisenseDisplayText="bool" FormatName="KeywordFormat"/>
+	<Lexem StartText="break" LexemType="Keyword" IntellisenseDisplayText="break" FormatName="KeywordFormat"/>
+	<Lexem StartText="byte" LexemType="Keyword" IntellisenseDisplayText="byte" FormatName="KeywordFormat"/>
+	<Lexem StartText="case" LexemType="Keyword" IntellisenseDisplayText="case" FormatName="KeywordFormat"/>
+	<Lexem StartText="catch" LexemType="Keyword" IntellisenseDisplayText="catch" FormatName="KeywordFormat"/>
+	<Lexem StartText="char" LexemType="Keyword" IntellisenseDisplayText="char" FormatName="KeywordFormat"/>
+	<Lexem StartText="checked" LexemType="Keyword" IntellisenseDisplayText="checked" FormatName="KeywordFormat"/>
+	<Lexem StartText="class" LexemType="Keyword" ExcludeItemInIntellisense="True" IntellisenseDisplayText="class" FormatName="KeywordFormat"/>
+	<Lexem StartText="const" LexemType="Keyword" IntellisenseDisplayText="const" FormatName="KeywordFormat"/>
+	<Lexem StartText="continue" LexemType="Keyword" IntellisenseDisplayText="continue" FormatName="KeywordFormat"/>
+	<Lexem StartText="decimal" LexemType="Keyword" IntellisenseDisplayText="decimal" FormatName="KeywordFormat"/>
+	<Lexem StartText="default" LexemType="Keyword" IntellisenseDisplayText="default" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bdelegate\b" LexemType="Keyword" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="delegate" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bdo\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="do" FormatName="KeywordFormat"/>
+	<Lexem StartText="double" LexemType="Keyword" IntellisenseDisplayText="double" FormatName="KeywordFormat"/>
+	<Lexem StartText="else" LexemType="Keyword" IntellisenseDisplayText="else" FormatName="KeywordFormat"/>
+	<Lexem StartText="enum" LexemType="CodeSnippet" IntellisenseDisplayText="enum" FormatName="KeywordFormat"/>
+	<Lexem StartText="event" LexemType="Keyword" IntellisenseDisplayText="event" FormatName="KeywordFormat"/>
+	<Lexem StartText="extern" LexemType="Keyword" IntellisenseDisplayText="extern" FormatName="KeywordFormat"/>
+	<Lexem StartText="false" LexemType="Keyword" IntellisenseDisplayText="false" FormatName="KeywordFormat"/>
+	<Lexem StartText="finally" LexemType="Keyword" IntellisenseDisplayText="finally" FormatName="KeywordFormat"/>
+	<Lexem StartText="fixed" LexemType="Keyword" IntellisenseDisplayText="fixed" FormatName="KeywordFormat"/>
+	<Lexem StartText="float" LexemType="Keyword" IntellisenseDisplayText="float" FormatName="KeywordFormat"/>
+    <Lexem StartText="\bfor\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="for" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bforeach\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="foreach" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bget\b" LexemType="Keyword" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="get" FormatName="KeywordFormat"/>
+	<Lexem StartText="goto" LexemType="Keyword" IntellisenseDisplayText="goto" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bif\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="if" FormatName="KeywordFormat"/>
+	<Lexem StartText="implicit" LexemType="Keyword" IntellisenseDisplayText="implicit" FormatName="KeywordFormat"/>
+	<Lexem StartText="in" LexemType="Keyword" IntellisenseDisplayText="in" FormatName="KeywordFormat"/>
+	<Lexem StartText="int" LexemType="Keyword" IntellisenseDisplayText="int" FormatName="KeywordFormat"/>
+	<Lexem StartText="\binterface\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="interface" FormatName="KeywordFormat"/>
+	<Lexem StartText="internal" LexemType="Keyword" IntellisenseDisplayText="internal" FormatName="KeywordFormat"/>
+	<Lexem StartText="is" LexemType="Keyword" IntellisenseDisplayText="is" FormatName="KeywordFormat"/>
+	<Lexem StartText="lock" LexemType="Keyword" IntellisenseDisplayText="lock" FormatName="KeywordFormat"/>
+	<Lexem StartText="long" LexemType="Keyword" IntellisenseDisplayText="long" FormatName="KeywordFormat"/>
+	<Lexem StartText="namespace" LexemType="Keyword" ExcludeItemInIntellisense="True" IntellisenseDisplayText="namespace" FormatName="KeywordFormat"/>
+	<Lexem StartText="new" LexemType="Keyword" IntellisenseDisplayText="new" FormatName="KeywordFormat"/>
+	<Lexem StartText="null" LexemType="Keyword" IntellisenseDisplayText="null" FormatName="KeywordFormat"/>
+	<Lexem StartText="object" LexemType="Keyword" IntellisenseDisplayText="object" FormatName="KeywordFormat"/>
+	<Lexem StartText="operator" LexemType="Keyword" IntellisenseDisplayText="operator" FormatName="KeywordFormat"/>
+	<Lexem StartText="out" LexemType="Keyword" IntellisenseDisplayText="out" FormatName="KeywordFormat"/>
+	<Lexem StartText="override" LexemType="Keyword" IntellisenseDisplayText="override" FormatName="KeywordFormat"/>
+	<Lexem StartText="partial" LexemType="Keyword" IntellisenseDisplayText="partial" FormatName="KeywordFormat"/>
+	<Lexem StartText="params" LexemType="Keyword" IntellisenseDisplayText="params" FormatName="KeywordFormat"/>
+	<Lexem StartText="private" LexemType="Keyword" IntellisenseDisplayText="private" FormatName="KeywordFormat"/>
+	<Lexem StartText="protected" LexemType="Keyword" IntellisenseDisplayText="protected" FormatName="KeywordFormat"/>
+	<Lexem StartText="public" LexemType="Keyword" IntellisenseDisplayText="public" FormatName="KeywordFormat"/>
+	<Lexem StartText="readonly" LexemType="Keyword" IntellisenseDisplayText="readonly" FormatName="KeywordFormat"/>
+	<Lexem StartText="ref" LexemType="Keyword" IntellisenseDisplayText="ref" FormatName="KeywordFormat"/>
+	<Lexem StartText="return" LexemType="Keyword" IntellisenseDisplayText="return" FormatName="KeywordFormat"/>
+	<Lexem StartText="sbyte" LexemType="Keyword" IntellisenseDisplayText="sbyte" FormatName="KeywordFormat"/>
+	<Lexem StartText="sealed" LexemType="Keyword" IntellisenseDisplayText="sealed" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bset\b" LexemType="Keyword" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="set" FormatName="KeywordFormat"/>
+	<Lexem StartText="short" LexemType="Keyword" IntellisenseDisplayText="short" FormatName="KeywordFormat"/>
+	<Lexem StartText="sizeof" LexemType="Keyword" IntellisenseDisplayText="sizeof" FormatName="KeywordFormat"/>
+	<Lexem StartText="stackalloc" LexemType="Keyword" IntellisenseDisplayText="stackalloc" FormatName="KeywordFormat"/>
+	<Lexem StartText="static" LexemType="Keyword" IntellisenseDisplayText="static" FormatName="KeywordFormat"/>
+	<Lexem StartText="string" LexemType="Keyword" IntellisenseDisplayText="string" FormatName="KeywordFormat"/>
+	<Lexem StartText="struct" LexemType="Keyword" IntellisenseDisplayText="struct" FormatName="KeywordFormat"/>
+	<Lexem StartText="switch" LexemType="Keyword" IntellisenseDisplayText="switch" FormatName="KeywordFormat"/>
+	<Lexem StartText="this" LexemType="Keyword" IntellisenseDisplayText="this" FormatName="KeywordFormat"/>
+	<Lexem StartText="throw" LexemType="Keyword" IntellisenseDisplayText="throw" FormatName="KeywordFormat"/>
+	<Lexem StartText="true" LexemType="Keyword" IntellisenseDisplayText="true" FormatName="KeywordFormat"/>
+	<Lexem StartText="try" LexemType="Keyword" IntellisenseDisplayText="try" FormatName="KeywordFormat"/>
+	<Lexem StartText="typeof" LexemType="Keyword" IntellisenseDisplayText="typeof" FormatName="KeywordFormat"/>
+	<Lexem StartText="uint" LexemType="Keyword" IntellisenseDisplayText="uint" FormatName="KeywordFormat"/>
+	<Lexem StartText="ulong" LexemType="Keyword" IntellisenseDisplayText="ulong" FormatName="KeywordFormat"/>
+	<Lexem StartText="unchecked" LexemType="Keyword" IntellisenseDisplayText="unchecked" FormatName="KeywordFormat"/>
+	<Lexem StartText="unsafe" LexemType="Keyword" IntellisenseDisplayText="unsafe" FormatName="KeywordFormat"/>
+	<Lexem StartText="ushort" LexemType="Keyword" IntellisenseDisplayText="ushort" FormatName="KeywordFormat"/>
+	<Lexem StartText="\busing\b" LexemType="NamespaceDeclaration" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="using" FormatName="KeywordFormat"/>
+	<Lexem StartText="value" LexemType="Keyword" IntellisenseDisplayText="value" FormatName="KeywordFormat"/>
+	<Lexem StartText="virtual" LexemType="Keyword" IntellisenseDisplayText="virtual" FormatName="KeywordFormat"/>
+	<Lexem StartText="void" LexemType="Keyword" IntellisenseDisplayText="void" FormatName="KeywordFormat"/>
+	<Lexem StartText="volatile" LexemType="Keyword" IntellisenseDisplayText="volatile" FormatName="KeywordFormat"/>
+	<Lexem StartText="where" LexemType="Keyword" IntellisenseDisplayText="where" FormatName="KeywordFormat"/>
+	<Lexem StartText="\bwhile\b" LexemType="CodeSnippet" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="while" FormatName="KeywordFormat"/>
+	<Lexem StartText="yield" LexemType="Keyword" IntellisenseDisplayText="yield" FormatName="KeywordFormat"/>
+	<Lexem StartText="#region" LexemType="CodeSnippet" IntellisenseDisplayText="#region" FormatName="KeywordFormat"/>
+	<Lexem StartText="#endregion" LexemType="Keyword" ExcludeItemInIntellisense="True" IntellisenseDisplayText="#endregion" FormatName="KeywordFormat"/>
+	<Lexem StartText="#if" LexemType="CodeSnippet" IntellisenseDisplayText="#if" FormatName="KeywordFormat"/>
+	<Lexem StartText="#elif" LexemType="Keyword" ExcludeItemInIntellisense="True" IntellisenseDisplayText="#elif" FormatName="KeywordFormat"/>
+	<Lexem StartText="#else" LexemType="Keyword" ExcludeItemInIntellisense="True" IntellisenseDisplayText="#else" FormatName="KeywordFormat"/>
+	<Lexem StartText="#endif" LexemType="Keyword" ExcludeItemInIntellisense="True" IntellisenseDisplayText="#endif" FormatName="KeywordFormat"/>
+	<Lexem StartText="/*" EndText="*/" IsMultiline="True" ContainsEndText="True" LexemType="Comment" IntellisenseDisplayText="/*" FormatName="CommentFormat"/>
+	<Lexem StartText="///[\w\s]" EndText="\r\n" IsMultiline="False" ContainsEndText="True" LexemType="Comment" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="///" FormatName="DocCommentFormat"/>
+	<Lexem StartText="(//)+" EndText="\r\n" IsMultiline="False" ContainsEndText="True" LexemType="Comment" IsRegex="True" ScopeLevel="None" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="//" FormatName="CommentFormat"/>
+	<Lexem StartText="&quot;" EndText="&quot;" IsMultiline="True" LexemType="Literals" IntellisenseDisplayText="&quot;" FormatName="LiteralsFormat"/>
+	<Lexem StartText="@&quot;" EndText="&quot;" IsMultiline="True" LexemType="Literals" IntellisenseDisplayText="@&quot;" FormatName="LiteralsFormat"/>
+	<Lexem StartText="(" LexemType="Operator" IntellisenseDisplayText="("/>
+	<Lexem StartText=")" LexemType="Operator" IntellisenseDisplayText=")"/>
+	<Lexem StartText="[" LexemType="Operator" IntellisenseDisplayText="["/>
+	<Lexem StartText="]" LexemType="Operator" IntellisenseDisplayText="]"/>
+	<Lexem StartText="\{" LexemType="Operator" IntellisenseDisplayText="\{"/>
+	<Lexem StartText="\}" LexemType="Operator" IntellisenseDisplayText="\}"/>
+	<Lexem StartText="." LexemType="Operator" IntellisenseDisplayText="."/>
+	<Lexem StartText="," LexemType="Operator" IntellisenseDisplayText=","/>
+	<Lexem StartText=";" LexemType="Operator" IntellisenseDisplayText=";"/>
+	<Lexem StartText=":" LexemType="Operator" IntellisenseDisplayText=":"/>
+	<Lexem StartText="+" LexemType="Operator" IntellisenseDisplayText="+"/>
+	<Lexem StartText="-" LexemType="Operator" IntellisenseDisplayText="-"/>
+	<Lexem StartText="/" LexemType="Operator" IntellisenseDisplayText="/"/>
+	<Lexem StartText="%" LexemType="Operator" IntellisenseDisplayText="%"/>
+	<Lexem StartText="^" LexemType="Operator" IntellisenseDisplayText="^"/>
+	<Lexem StartText="*" LexemType="Operator" IntellisenseDisplayText="*"/>
+	<Lexem StartText="|" LexemType="Operator" IntellisenseDisplayText="|"/>
+	<Lexem StartText="&amp;" LexemType="Operator" IntellisenseDisplayText="&amp;"/>
+	<Lexem StartText="!" LexemType="Operator" IntellisenseDisplayText="!"/>
+	<Lexem StartText="~" LexemType="Operator" IntellisenseDisplayText="~"/>
+	<Lexem StartText="=" LexemType="Operator" IntellisenseDisplayText="="/>
+	<Lexem StartText="&lt;" LexemType="Operator" IntellisenseDisplayText="&lt;"/>
+	<Lexem StartText="&gt;" LexemType="Operator" IntellisenseDisplayText="&gt;"/>
+	<Lexem StartText="?" LexemType="Operator" IntellisenseDisplayText="?"/>
+	<Lexem StartText="??" LexemType="Operator" IntellisenseDisplayText="??"/>
+	<Lexem StartText="::" LexemType="Operator" IntellisenseDisplayText="::"/>
+	<Lexem StartText="++" LexemType="Operator" IntellisenseDisplayText="++"/>
+	<Lexem StartText="--" LexemType="Operator" IntellisenseDisplayText="--"/>
+	<Lexem StartText="&amp;&amp;" LexemType="Operator" IntellisenseDisplayText="&amp;&amp;"/>
+	<Lexem StartText="||" LexemType="Operator" IntellisenseDisplayText="||"/>
+	<Lexem StartText="-&gt;" LexemType="Operator" IntellisenseDisplayText="-&gt;"/>
+	<Lexem StartText="==" LexemType="Operator" IntellisenseDisplayText="=="/>
+	<Lexem StartText="!=" LexemType="Operator" IntellisenseDisplayText="!="/>
+	<Lexem StartText="&lt;=" LexemType="Operator" IntellisenseDisplayText="&lt;="/>
+	<Lexem StartText="&gt;=" LexemType="Operator" IntellisenseDisplayText="&gt;="/>
+	<Lexem StartText="+=" LexemType="Operator" IntellisenseDisplayText="+="/>
+	<Lexem StartText="-=" LexemType="Operator" IntellisenseDisplayText="-="/>
+	<Lexem StartText="*=" LexemType="Operator" IntellisenseDisplayText="*="/>
+	<Lexem StartText="%=" LexemType="Operator" IntellisenseDisplayText="%="/>
+	<Lexem StartText="/=" LexemType="Operator" IntellisenseDisplayText="/="/>
+	<Lexem StartText="&amp;=" LexemType="Operator" IntellisenseDisplayText="&amp;="/>
+	<Lexem StartText="^=" LexemType="Operator" IntellisenseDisplayText="^="/>
+	<Lexem StartText="|=" LexemType="Operator" IntellisenseDisplayText="|="/>
+	<Lexem StartText="&lt;&lt;" LexemType="Operator" IntellisenseDisplayText="&lt;&lt;"/>
+	<Lexem StartText="&lt;&lt;=" LexemType="Operator" IntellisenseDisplayText="&lt;&lt;="/>
+	<Lexem StartText="=&gt;" LexemType="Operator" IntellisenseDisplayText="=&gt;"/>
+	<Lexem StartText="&gt;&gt;" LexemType="Operator" IntellisenseDisplayText="&gt;&gt;"/>
+	<Lexem StartText="&gt;&gt;=" LexemType="Operator" IntellisenseDisplayText="&gt;&gt;="/>
+</LexemCollection>

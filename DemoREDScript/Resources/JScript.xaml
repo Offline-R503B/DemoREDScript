@@ -1,0 +1,579 @@
+<LexemCollection
+	xmlns="http://schemas.syncfusion.com/wpf"
+	xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Lexem StartText="abstract" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="abstract" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="arguments" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="arguments" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="await" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="await" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="boolean" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="boolean" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="break" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="break" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="byte" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="byte" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="case" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="case" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="catch" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="catch" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="char" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="char" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="class" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="class" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="const" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="const" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="continue" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="continue" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="debugger" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="debugger" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="default" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="default" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="delete" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="delete" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="do" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="do" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="double" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="double" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="else" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="else" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="enum" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="enum" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="eval" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="eval" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="export" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="export" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="extends" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="extends" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="false" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="false" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="final" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="final" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="finally" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="finally" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="float" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="float" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="for" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="for" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="function" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="function" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="goto" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="goto" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="if" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="if" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="implements" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="implements" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="import" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="import" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="in" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="in" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="instanceof" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="instanceof" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="int" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="int" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="interface" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="interface" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="let" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="let" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="long" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="long" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="native" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="native" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="new" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="new" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="null" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="null" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="package" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="package" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="private" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="private" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="protected" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="protected" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="public" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="public" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="return" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="return" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="short" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="short" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="static" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="static" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="super" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="super" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="switch" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="switch" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="synchronized" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="synchronized" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="this" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="this" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="throw" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="throw" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="throws" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="throws" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="transient" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="transient" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="true" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="true" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="try" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="try" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="typeof" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="typeof" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="var" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="var" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="void" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="void" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="volatile" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="volatile" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="while" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="while" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="with" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="with" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="yield" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="KeywordFormat" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="yield" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="/*" ContainsEndText="True" IsMultiline="True" LexemType="Comment" FormatName="CommentFormat" EndText="*/" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="/*" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="(//)+" ContainsEndText="True" IsMultiline="False" LexemType="Comment" FormatName="CommentFormat" EndText="\r\n" IsRegex="True" ShowAlternateIntellisenseText="True" IntellisenseDisplayText="//" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&quot;" ContainsEndText="False" IsMultiline="False" LexemType="Literals" FormatName="LiteralsFormat" EndText="&quot;" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&quot;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="@&quot;" ContainsEndText="False" IsMultiline="True" LexemType="Literals" FormatName="LiteralsFormat" EndText="&quot;" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="@&quot;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="'" ContainsEndText="False" IsMultiline="False" LexemType="Literals" FormatName="LiteralsFormat" EndText="'" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="'" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="\d+" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="NumberFormat" EndText="{assembly:Null}" IsRegex="True" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="\d+" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="[a-zA-Z_]+\d+" ContainsEndText="False" IsMultiline="False" LexemType="Keyword" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="True" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="[a-zA-Z_]+\d+" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="(" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="(" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText=")" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText=")" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="[" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="[" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="]" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="]" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="\{" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="\{" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="\}" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="\}" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="." ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="." ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="," ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="," ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText=";" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText=";" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText=":" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText=":" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="+" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="+" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="-" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="-" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="/" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="/" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="%" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="%" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="^" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="^" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="*" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="*" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="**" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="**" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="|" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="|" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&amp;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&amp;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="!" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="!" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="~" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="~" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&lt;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&lt;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&gt;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&gt;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="?" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="?" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="++" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="++" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="--" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="--" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&amp;&amp;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&amp;&amp;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="||" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="||" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="==" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="==" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="===" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="===" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="!=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="!=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="!==" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="!==" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&lt;=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&lt;=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&gt;=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&gt;=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="+=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="+=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="-=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="-=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="*=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="*=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="%=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="%=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="/=" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="/=" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&lt;&lt;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&lt;&lt;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&gt;&gt;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&gt;&gt;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="&gt;&gt;&gt;" ContainsEndText="False" IsMultiline="False" LexemType="Operator" FormatName="{assembly:Null}" EndText="{assembly:Null}" IsRegex="False" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="&gt;&gt;&gt;" ExcludeItemInIntellisense="False" Indent="False" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+	<Lexem StartText="function" ContainsEndText="True" IsMultiline="True" LexemType="CodeSnippet" FormatName="KeywordFormat" EndText="}" IsRegex="True" ShowAlternateIntellisenseText="False" IntellisenseDisplayText="function" ExcludeItemInIntellisense="True" Indent="True" CheckParentLexemType="False" ParentLexemType="Literals" ScopeLevel="None" IsCollapsible="True" EndBlockOnRecurrence="False">
+		<Lexem.SubLexems>
+			<LexemCollection />
+		</Lexem.SubLexems>
+	</Lexem>
+</LexemCollection>
